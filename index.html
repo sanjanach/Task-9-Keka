@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>Technovert</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+    <body>
+        <div id="PageContainer" class="page-container">
+            <div class="page-header">
+                <h1 class="page-title">Address Book</h1>
+            </div>
+    
+            <div class="navbar">
+                <ul class="nav-list">
+                    <li class="nav-list-item"><a href="#">Home</a></li>
+                    <li class="nav-list-item" id="NavAdd"><a href="">+Add</a></li>
+                    <img class="blog-icon" src="blog-icon.png" alt="icon">
+                </ul> 
+            </div>
+    
+            <div class="contact-title">
+                Contacts
+            </div>
+
+            <div id="DisplayForm">
+                <div class="user-input">
+                    <form id="ContactForm" name="contactform" class="table" action="">
+                        <div class="row"><div class="cell">Name</div></div>
+                        <div class="row">
+                            <div class="cell"><input class="input-text" type="text" name="name" id="InputName"></div>
+                            <span id="NameError">*</span>
+                        </div>
+                        <div class="row"><div class="cell">Email</div></div>
+                        <div class="row">
+                            <div class="cell"><input class="input-text" type="text" name="" id="InputEmail"></div>
+                            <span id="EmailError">*</span>
+                        </div>
+                        <div class="row">
+                            <div class="cell">Mobile 
+                            <span id="SecondSpan">Landline</span></div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="cell"><input class="short-input-text" type="text" name="" id="InputMobile"><input id="InputLandline" class="short-input-text SecondText" type="text" name="">
+                                <span id="MobileError"> *</span>
+                            </div>
+                            
+                        </div>
+                        <div class="row"><div class="cell">Website</div></div>
+                        <div class="row"><div class="cell"><input class="input-text" type="text" name="" id="InputWebsite"></div></div>
+                        <div class="row"><div class="cell">Address</div></div>
+                        <div class="row"><div class="cell"><textarea name="" id="InputAddress" cols="54" rows="8"></textarea></div></div>
+                        <input id="SubmitForm" class="add-btn" type="button" value="Add">
+                        <div id="OnSubmit"></div>                        
+                    </form>
+                </div>
+            </div>
+
+
+            <div id="ContactSection">
+
+            </div>
+
+
+            <div id="DisplayDetails">
+
+            </div>
+
+
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
